@@ -12,6 +12,10 @@ class Solution:
             count+=1
         return count
 
+
+
+#Intuition:
+
 I will use a while loop that continues until the number becomes zero.
 
 In each iteration, I check whether the current number is even or odd using the modulo operator.
@@ -24,12 +28,14 @@ After each operation, I increment the step counter by 1. Once the number reaches
 
 
     
-Complexity analysis:
+#Complexity analysis:
     
-Time complexity: (O(log n))
+Time complexity: 
+(O(log n))
 - When the number is even, we divide it by 2, reducing it significantly.
 When it is odd, we subtract 1, making it even; the next operation divides it by 2.
 Therefore, the number of operations grows logarithmically with the input.
     
-Space complexity: (O(1))
+Space complexity:
+(O(1))
 We use only two variables, num and count, regardless of the input size.
