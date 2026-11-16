@@ -1,3 +1,5 @@
+Optimal approach reuires the knowlwdge of binary tree, so i will revisit later when I will do Binary Tree problems
+
 # bruteforce approach
 
 
