@@ -11,8 +11,11 @@ class Solution:
             maxwealth=max(wealth,maxwealth)
         return maxwealth
 
+#Intuition:
 
-I will use two nested loops to calculate the richest customer's wealth.
+-I calculate each customers total wealth and keep track of the maximum.
+
+For that, I will use two nested loops to calculate the richest customer's wealth.
 
 The outer loop iterates through each customer, and the inner loop iterates through all the bank accounts belonging to that customer.
 
