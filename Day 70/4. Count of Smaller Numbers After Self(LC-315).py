@@ -1,4 +1,4 @@
-Optimal approach reuires the knowlwdge of binary tree, so i will revisit later when I will do Binary Tree problems
+Optimal approach requires the knowledge of binary tree, so i will revisit later when I will do Binary Tree problems
 
 # bruteforce approach
 
